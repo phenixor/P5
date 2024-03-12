@@ -38,6 +38,11 @@ body {
 	color: #000
 }
 
+.carousel-indicators {
+	height: 23px;
+	width: auto;
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -48,6 +53,13 @@ body {
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+	height: 555px;
+	width: 100%;
+}
+
+#Nina {
+	height: 355px;
+	width: 355px;
 }
 
 .picture.left::before {
@@ -72,7 +84,7 @@ body {
 
 }
 #about-me {
-	flex: 2
+	flex: 2;
 }
 .about-me__title {
 	margin-top: 1em;
@@ -80,6 +92,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
+	height: 60px;
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
@@ -91,9 +104,13 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
+	height: auto;
+	width: 100%;
 }
 .title{
+	height: 145px;
+    width: 100%;
 	text-align: center;
 	padding-block: 2em;
 }
@@ -140,6 +157,7 @@ body {
 	font-family: 'Spectral';
 	font-style: italic;
 	width: 70%;
+	height: 355px;
 	margin: auto;
 	padding-block: 3em;
 }
