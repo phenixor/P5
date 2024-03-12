@@ -40,7 +40,11 @@ body {
 
 .carousel-indicators {
 	height: 23px;
-	width: auto;
+	width: 70%;
+}
+
+.carouselExampleIndicators {
+	height: 665px;
 }
 
 .social-link img {
